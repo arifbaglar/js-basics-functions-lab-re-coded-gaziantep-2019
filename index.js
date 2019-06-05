@@ -1,9 +1,11 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (blok) {
-  return (42-blok)
+  if(blok<=42){
+  return (42-blok)}
+  else{return blok-42}
 }
  
 function distanceFromHqInFeet (blok) {
-  distanceFromHqInBlocks(someValue);
+  distanceFromHqInBlocks(blok);
   
 }
